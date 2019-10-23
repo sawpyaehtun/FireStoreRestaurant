@@ -1,0 +1,589 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D003B4EA2360081500615449 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D003B4E92360081500615449 /* AppDelegate.swift */; };
+		D003B4EC2360081500615449 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D003B4EB2360081500615449 /* SceneDelegate.swift */; };
+		D003B4EE2360081500615449 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D003B4ED2360081500615449 /* ViewController.swift */; };
+		D003B4F12360081500615449 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D003B4EF2360081500615449 /* Main.storyboard */; };
+		D003B4F32360081700615449 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D003B4F22360081700615449 /* Assets.xcassets */; };
+		D003B4F62360081700615449 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D003B4F42360081700615449 /* LaunchScreen.storyboard */; };
+		D003B5012360081700615449 /* FireStoreResturantSBTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D003B5002360081700615449 /* FireStoreResturantSBTests.swift */; };
+		D003B50C2360081700615449 /* FireStoreResturantSBUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D003B50B2360081700615449 /* FireStoreResturantSBUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D003B4FD2360081700615449 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D003B4DE2360081500615449 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D003B4E52360081500615449;
+			remoteInfo = FireStoreResturantSB;
+		};
+		D003B5082360081700615449 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D003B4DE2360081500615449 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D003B4E52360081500615449;
+			remoteInfo = FireStoreResturantSB;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D003B4E62360081500615449 /* FireStoreResturantSB.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FireStoreResturantSB.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D003B4E92360081500615449 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D003B4EB2360081500615449 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		D003B4ED2360081500615449 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D003B4F02360081500615449 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D003B4F22360081700615449 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D003B4F52360081700615449 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D003B4F72360081700615449 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D003B4FC2360081700615449 /* FireStoreResturantSBTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FireStoreResturantSBTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D003B5002360081700615449 /* FireStoreResturantSBTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FireStoreResturantSBTests.swift; sourceTree = "<group>"; };
+		D003B5022360081700615449 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D003B5072360081700615449 /* FireStoreResturantSBUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FireStoreResturantSBUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D003B50B2360081700615449 /* FireStoreResturantSBUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FireStoreResturantSBUITests.swift; sourceTree = "<group>"; };
+		D003B50D2360081700615449 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D003B4E32360081500615449 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D003B4F92360081700615449 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D003B5042360081700615449 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D003B4DD2360081500615449 = {
+			isa = PBXGroup;
+			children = (
+				D003B4E82360081500615449 /* FireStoreResturantSB */,
+				D003B4FF2360081700615449 /* FireStoreResturantSBTests */,
+				D003B50A2360081700615449 /* FireStoreResturantSBUITests */,
+				D003B4E72360081500615449 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D003B4E72360081500615449 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D003B4E62360081500615449 /* FireStoreResturantSB.app */,
+				D003B4FC2360081700615449 /* FireStoreResturantSBTests.xctest */,
+				D003B5072360081700615449 /* FireStoreResturantSBUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D003B4E82360081500615449 /* FireStoreResturantSB */ = {
+			isa = PBXGroup;
+			children = (
+				D003B4E92360081500615449 /* AppDelegate.swift */,
+				D003B4EB2360081500615449 /* SceneDelegate.swift */,
+				D003B4ED2360081500615449 /* ViewController.swift */,
+				D003B4EF2360081500615449 /* Main.storyboard */,
+				D003B4F22360081700615449 /* Assets.xcassets */,
+				D003B4F42360081700615449 /* LaunchScreen.storyboard */,
+				D003B4F72360081700615449 /* Info.plist */,
+			);
+			path = FireStoreResturantSB;
+			sourceTree = "<group>";
+		};
+		D003B4FF2360081700615449 /* FireStoreResturantSBTests */ = {
+			isa = PBXGroup;
+			children = (
+				D003B5002360081700615449 /* FireStoreResturantSBTests.swift */,
+				D003B5022360081700615449 /* Info.plist */,
+			);
+			path = FireStoreResturantSBTests;
+			sourceTree = "<group>";
+		};
+		D003B50A2360081700615449 /* FireStoreResturantSBUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D003B50B2360081700615449 /* FireStoreResturantSBUITests.swift */,
+				D003B50D2360081700615449 /* Info.plist */,
+			);
+			path = FireStoreResturantSBUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D003B4E52360081500615449 /* FireStoreResturantSB */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D003B5102360081700615449 /* Build configuration list for PBXNativeTarget "FireStoreResturantSB" */;
+			buildPhases = (
+				D003B4E22360081500615449 /* Sources */,
+				D003B4E32360081500615449 /* Frameworks */,
+				D003B4E42360081500615449 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FireStoreResturantSB;
+			productName = FireStoreResturantSB;
+			productReference = D003B4E62360081500615449 /* FireStoreResturantSB.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D003B4FB2360081700615449 /* FireStoreResturantSBTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D003B5132360081700615449 /* Build configuration list for PBXNativeTarget "FireStoreResturantSBTests" */;
+			buildPhases = (
+				D003B4F82360081700615449 /* Sources */,
+				D003B4F92360081700615449 /* Frameworks */,
+				D003B4FA2360081700615449 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D003B4FE2360081700615449 /* PBXTargetDependency */,
+			);
+			name = FireStoreResturantSBTests;
+			productName = FireStoreResturantSBTests;
+			productReference = D003B4FC2360081700615449 /* FireStoreResturantSBTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D003B5062360081700615449 /* FireStoreResturantSBUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D003B5162360081700615449 /* Build configuration list for PBXNativeTarget "FireStoreResturantSBUITests" */;
+			buildPhases = (
+				D003B5032360081700615449 /* Sources */,
+				D003B5042360081700615449 /* Frameworks */,
+				D003B5052360081700615449 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D003B5092360081700615449 /* PBXTargetDependency */,
+			);
+			name = FireStoreResturantSBUITests;
+			productName = FireStoreResturantSBUITests;
+			productReference = D003B5072360081700615449 /* FireStoreResturantSBUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D003B4DE2360081500615449 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1110;
+				LastUpgradeCheck = 1110;
+				ORGANIZATIONNAME = "saw pyaehtun";
+				TargetAttributes = {
+					D003B4E52360081500615449 = {
+						CreatedOnToolsVersion = 11.1;
+					};
+					D003B4FB2360081700615449 = {
+						CreatedOnToolsVersion = 11.1;
+						TestTargetID = D003B4E52360081500615449;
+					};
+					D003B5062360081700615449 = {
+						CreatedOnToolsVersion = 11.1;
+						TestTargetID = D003B4E52360081500615449;
+					};
+				};
+			};
+			buildConfigurationList = D003B4E12360081500615449 /* Build configuration list for PBXProject "FireStoreResturantSB" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D003B4DD2360081500615449;
+			productRefGroup = D003B4E72360081500615449 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D003B4E52360081500615449 /* FireStoreResturantSB */,
+				D003B4FB2360081700615449 /* FireStoreResturantSBTests */,
+				D003B5062360081700615449 /* FireStoreResturantSBUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D003B4E42360081500615449 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D003B4F62360081700615449 /* LaunchScreen.storyboard in Resources */,
+				D003B4F32360081700615449 /* Assets.xcassets in Resources */,
+				D003B4F12360081500615449 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D003B4FA2360081700615449 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D003B5052360081700615449 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D003B4E22360081500615449 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D003B4EE2360081500615449 /* ViewController.swift in Sources */,
+				D003B4EA2360081500615449 /* AppDelegate.swift in Sources */,
+				D003B4EC2360081500615449 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D003B4F82360081700615449 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D003B5012360081700615449 /* FireStoreResturantSBTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D003B5032360081700615449 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D003B50C2360081700615449 /* FireStoreResturantSBUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D003B4FE2360081700615449 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D003B4E52360081500615449 /* FireStoreResturantSB */;
+			targetProxy = D003B4FD2360081700615449 /* PBXContainerItemProxy */;
+		};
+		D003B5092360081700615449 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D003B4E52360081500615449 /* FireStoreResturantSB */;
+			targetProxy = D003B5082360081700615449 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D003B4EF2360081500615449 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D003B4F02360081500615449 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D003B4F42360081700615449 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D003B4F52360081700615449 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D003B50E2360081700615449 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D003B50F2360081700615449 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D003B5112360081700615449 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FireStoreResturantSB/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = saw.com.FireStoreResturantSB;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D003B5122360081700615449 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FireStoreResturantSB/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = saw.com.FireStoreResturantSB;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D003B5142360081700615449 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FireStoreResturantSBTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = saw.com.FireStoreResturantSBTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FireStoreResturantSB.app/FireStoreResturantSB";
+			};
+			name = Debug;
+		};
+		D003B5152360081700615449 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FireStoreResturantSBTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = saw.com.FireStoreResturantSBTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FireStoreResturantSB.app/FireStoreResturantSB";
+			};
+			name = Release;
+		};
+		D003B5172360081700615449 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FireStoreResturantSBUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = saw.com.FireStoreResturantSBUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FireStoreResturantSB;
+			};
+			name = Debug;
+		};
+		D003B5182360081700615449 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FireStoreResturantSBUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = saw.com.FireStoreResturantSBUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FireStoreResturantSB;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D003B4E12360081500615449 /* Build configuration list for PBXProject "FireStoreResturantSB" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D003B50E2360081700615449 /* Debug */,
+				D003B50F2360081700615449 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D003B5102360081700615449 /* Build configuration list for PBXNativeTarget "FireStoreResturantSB" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D003B5112360081700615449 /* Debug */,
+				D003B5122360081700615449 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D003B5132360081700615449 /* Build configuration list for PBXNativeTarget "FireStoreResturantSBTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D003B5142360081700615449 /* Debug */,
+				D003B5152360081700615449 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D003B5162360081700615449 /* Build configuration list for PBXNativeTarget "FireStoreResturantSBUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D003B5172360081700615449 /* Debug */,
+				D003B5182360081700615449 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D003B4DE2360081500615449 /* Project object */;
+}
