@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15400" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15404"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Main Resturant View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="MainResturantViewController" customModule="FireStoreResturantSB" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3gY-QY-RYi">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="313.5"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="food" translatesAutoresizingMaskIntoConstraints="NO" id="fQu-hf-GwT">
+                                        <rect key="frame" x="107" y="44.5" width="200" height="200"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" secondItem="fQu-hf-GwT" secondAttribute="height" multiplier="1:1" id="qmU-7m-eiZ"/>
+                                        </constraints>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" red="0.97436314820000003" green="0.82332819700000004" blue="0.58819037679999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <constraints>
+                                    <constraint firstItem="fQu-hf-GwT" firstAttribute="top" secondItem="3gY-QY-RYi" secondAttribute="top" constant="44.5" id="a8R-QJ-BJN"/>
+                                    <constraint firstItem="fQu-hf-GwT" firstAttribute="centerX" secondItem="3gY-QY-RYi" secondAttribute="centerX" id="fzc-GN-vOP"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jSQ-fK-eFO" customClass="CardView" customModule="FireStoreResturantSB" customModuleProvider="target">
+                                <rect key="frame" x="20" y="249.5" width="374" height="128"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Bouchon Bistrot Restaurant" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ylb-YX-4YX">
+                                        <rect key="frame" x="12" y="12" width="288" height="46"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="46" id="5fu-Rr-rOg"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="AvenirNext-DemiBold" family="Avenir Next" pointSize="22"/>
+                                        <color key="textColor" cocoaTouchSystemColor="viewFlipsideBackgroundColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="#Burger #Drink #Fastfood" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SQd-sC-dLL">
+                                        <rect key="frame" x="12" y="70" width="288" height="46"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="46" id="jIM-sZ-NHh"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="AvenirNext-DemiBold" family="Avenir Next" pointSize="15"/>
+                                        <color key="textColor" systemColor="systemOrangeColor" red="1" green="0.58431372550000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fjD-ur-tg0" customClass="RoundedButton" customModule="FireStoreResturantSB" customModuleProvider="target">
+                                        <rect key="frame" x="312" y="12" width="46" height="46"/>
+                                        <color key="backgroundColor" red="0.94614154100000003" green="0.64426445960000001" blue="0.23514994980000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="46" id="45n-wj-hGI"/>
+                                            <constraint firstAttribute="height" constant="46" id="Jhh-jE-NwT"/>
+                                        </constraints>
+                                        <color key="tintColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                        <state key="normal" title="5.0"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="shadowOffsetWidth">
+                                                <integer key="value" value="0"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="shadowOffsetHeight">
+                                                <integer key="value" value="3"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="shadowColor">
+                                                <color key="value" systemColor="systemBrownColor" red="0.63529411759999999" green="0.51764705879999995" blue="0.36862745099999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                    </button>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Rating" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QpO-96-v2J">
+                                        <rect key="frame" x="308" y="77" width="54" height="46"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="46" id="TIn-Qs-s6L"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="AvenirNext-DemiBold" family="Avenir Next" pointSize="18"/>
+                                        <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <constraints>
+                                    <constraint firstItem="fjD-ur-tg0" firstAttribute="leading" secondItem="Ylb-YX-4YX" secondAttribute="trailing" constant="12" id="1p9-DM-Rh3"/>
+                                    <constraint firstItem="fjD-ur-tg0" firstAttribute="top" secondItem="jSQ-fK-eFO" secondAttribute="top" constant="12" id="87c-5N-Lk8"/>
+                                    <constraint firstItem="Ylb-YX-4YX" firstAttribute="leading" secondItem="jSQ-fK-eFO" secondAttribute="leading" constant="12" id="MBh-WJ-7Db"/>
+                                    <constraint firstItem="QpO-96-v2J" firstAttribute="centerX" secondItem="fjD-ur-tg0" secondAttribute="centerX" id="R0I-eA-Ibz"/>
+                                    <constraint firstAttribute="bottom" secondItem="SQd-sC-dLL" secondAttribute="bottom" constant="12" id="RKH-sV-Qvl"/>
+                                    <constraint firstItem="SQd-sC-dLL" firstAttribute="trailing" secondItem="Ylb-YX-4YX" secondAttribute="trailing" id="W8H-lA-Ode"/>
+                                    <constraint firstItem="Ylb-YX-4YX" firstAttribute="top" secondItem="jSQ-fK-eFO" secondAttribute="top" constant="12" id="ZMr-Vh-mmD"/>
+                                    <constraint firstAttribute="bottom" secondItem="QpO-96-v2J" secondAttribute="bottom" constant="5" id="eec-SZ-9uX"/>
+                                    <constraint firstItem="SQd-sC-dLL" firstAttribute="leading" secondItem="Ylb-YX-4YX" secondAttribute="leading" id="g4c-xA-4z1"/>
+                                    <constraint firstItem="SQd-sC-dLL" firstAttribute="top" secondItem="Ylb-YX-4YX" secondAttribute="bottom" constant="12" id="lFQ-di-a0D"/>
+                                    <constraint firstAttribute="trailing" secondItem="fjD-ur-tg0" secondAttribute="trailing" constant="16" id="lXR-d5-1uT"/>
+                                    <constraint firstItem="QpO-96-v2J" firstAttribute="top" secondItem="fjD-ur-tg0" secondAttribute="bottom" constant="19" id="uj0-8W-dlJ"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="shadowOffsetWidth">
+                                        <integer key="value" value="4"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="shadowOffsetHeight">
+                                        <integer key="value" value="4"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="shadowColor">
+                                        <color key="value" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="20"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="iwr-Vg-sJh">
+                                <rect key="frame" x="20" y="459.5" width="374" height="412.5"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </tableView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rYf-KS-ZDt" customClass="RoundedButton" customModule="FireStoreResturantSB" customModuleProvider="target">
+                                <rect key="frame" x="336" y="796" width="46" height="46"/>
+                                <color key="backgroundColor" red="0.50672471519999995" green="0.64771020410000002" blue="0.60784035920000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="46" id="UsV-Uu-plY"/>
+                                    <constraint firstAttribute="width" constant="46" id="xCO-wB-bzj"/>
+                                </constraints>
+                                <color key="tintColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                <state key="normal" image="plus" catalog="system"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="shadowOffsetWidth">
+                                        <integer key="value" value="0"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="shadowOffsetHeight">
+                                        <integer key="value" value="3"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="shadowColor">
+                                        <color key="value" systemColor="systemBrownColor" red="0.63529411759999999" green="0.51764705879999995" blue="0.36862745099999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </button>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Bj4-1o-hRg" customClass="CategoryView" customModule="FireStoreResturantSB" customModuleProvider="target">
+                                <rect key="frame" x="20" y="401.5" width="374" height="46"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="46" id="rF0-PO-DF2"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="0.95686274509803915" green="0.94509803921568625" blue="0.93333333333333335" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstItem="iwr-Vg-sJh" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="0jd-Vr-wqG"/>
+                            <constraint firstAttribute="bottomMargin" secondItem="rYf-KS-ZDt" secondAttribute="bottom" constant="54" id="2Y6-hK-YpB"/>
+                            <constraint firstItem="jSQ-fK-eFO" firstAttribute="top" secondItem="3gY-QY-RYi" secondAttribute="bottom" constant="-64" id="6hL-K0-NOL"/>
+                            <constraint firstItem="Bj4-1o-hRg" firstAttribute="top" secondItem="jSQ-fK-eFO" secondAttribute="bottom" constant="24" id="7pa-dR-L71"/>
+                            <constraint firstItem="jSQ-fK-eFO" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="9Oe-Gs-RFa"/>
+                            <constraint firstAttribute="bottomMargin" secondItem="iwr-Vg-sJh" secondAttribute="bottom" constant="24" id="CCr-rC-ZLu"/>
+                            <constraint firstItem="3gY-QY-RYi" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="LIa-98-FGb"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="jSQ-fK-eFO" secondAttribute="trailing" id="N3B-Dx-il9"/>
+                            <constraint firstItem="jSQ-fK-eFO" firstAttribute="top" secondItem="fQu-hf-GwT" secondAttribute="bottom" constant="5" id="O9p-Tc-2zj"/>
+                            <constraint firstAttribute="trailing" secondItem="3gY-QY-RYi" secondAttribute="trailing" id="SEG-Pl-d0C"/>
+                            <constraint firstItem="3gY-QY-RYi" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="TRA-yO-HYF"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="iwr-Vg-sJh" secondAttribute="trailing" id="TRK-uR-t7y"/>
+                            <constraint firstItem="Bj4-1o-hRg" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="XHg-EA-AJT"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="Bj4-1o-hRg" secondAttribute="trailing" id="gSG-bG-LUk"/>
+                            <constraint firstItem="iwr-Vg-sJh" firstAttribute="top" secondItem="Bj4-1o-hRg" secondAttribute="bottom" constant="12" id="ifT-ua-8MB"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="rYf-KS-ZDt" secondAttribute="trailing" constant="12" id="oz7-nN-VWm"/>
+                            <constraint firstItem="3gY-QY-RYi" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="0.35" id="wSh-K2-2Xy"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="D4e-eE-Hua"/>
+                    </view>
+                    <connections>
+                        <outlet property="btnAdd" destination="rYf-KS-ZDt" id="o2X-ej-otA"/>
+                        <outlet property="tableviewFooditemList" destination="iwr-Vg-sJh" id="QPK-4j-vGR"/>
+                        <outlet property="viewCategory" destination="Bj4-1o-hRg" id="h5G-oI-bNt"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="137.68115942028987" y="126.5625"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="food" width="800" height="692"/>
+        <image name="plus" catalog="system" width="64" height="56"/>
+    </resources>
+</document>

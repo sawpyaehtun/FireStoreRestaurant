@@ -1,0 +1,6 @@
+framework module Pods_FireStoreResturantSBTests {
+  umbrella header "Pods-FireStoreResturantSBTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
